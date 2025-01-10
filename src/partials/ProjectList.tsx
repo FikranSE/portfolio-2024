@@ -18,7 +18,7 @@ const ProjectList = () => (
       <div className="flex flex-col md:flex-row gap-6 items-center">
         <div className="w-full md:w-2/3">
           <img 
-            src="/src/images/abm.jpeg" 
+            src="/assets/images/abm.jpeg" 
             alt="E-Procurement System"
             className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />
@@ -42,7 +42,7 @@ const ProjectList = () => (
       <div className="flex flex-col md:flex-row-reverse gap-6 items-center">
         <div className="w-full md:w-2/3">
           <img 
-            src="/src/images/adhi.jpeg" 
+            src="/assets/images/adhi.jpeg" 
             alt="ABM Dashboard"
             className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />
@@ -67,7 +67,7 @@ const ProjectList = () => (
       <div className="flex flex-col md:flex-row gap-6 items-center">
         <div className="w-full md:w-2/3">
           <img 
-            src="/src/images/digitasi.jpg" 
+            src="/assets/images/digitasi.jpg" 
             alt="Digital Map"
             className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />
@@ -90,7 +90,7 @@ const ProjectList = () => (
       <div className="flex flex-col md:flex-row-reverse gap-6 items-center">
         <div className="w-full md:w-2/3">
           <img 
-            src="/src/images/meteran2.jpeg" 
+            src="/assets/images/meteran2.jpeg" 
             alt="PDAM Mobile App"
             className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />
@@ -115,7 +115,7 @@ const ProjectList = () => (
       <div className="flex flex-col md:flex-row gap-6 items-center">
         <div className="w-full md:w-2/3">
           <img 
-            src="/src/images/booking.jpeg" 
+            src="/assets/images/booking.jpeg" 
             alt="Booking App"
             className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />
