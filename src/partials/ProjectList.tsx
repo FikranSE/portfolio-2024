@@ -440,7 +440,7 @@ const ProjectCard = ({
                 ? 'bg-blue-50 text-blue-600 border border-blue-100' 
                 : 'bg-purple-50 text-purple-600 border border-purple-100'
             }`}>
-              {kind === 'web' ? 'Web Application' : 'Mobile Application'}
+              {kind === 'web' ? 'Aplikasi Web' : 'Aplikasi Mobile'}
             </span>
           </div>
           <h3 className="text-3xl font-bold tracking-tight text-gray-900 leading-tight">
@@ -455,7 +455,7 @@ const ProjectCard = ({
         <div className="flex flex-wrap items-center gap-5 mb-8">
           {link && (
             <div className="flex flex-col">
-              <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Download</span>
+              <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Unduh</span>
               <a 
                 href={link} 
                 target="_blank" 
@@ -464,7 +464,7 @@ const ProjectCard = ({
               >
                 <img 
                   src="/assets/images/google-play.png" 
-                  alt="Get it on Google Play" 
+                  alt="Dapatkan di Google Play" 
                   className="h-11 w-auto object-contain" 
                 />
               </a>
@@ -473,7 +473,7 @@ const ProjectCard = ({
 
           {sourceLink && (
             <div className="flex flex-col">
-              <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Explore Code</span>
+              <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Lihat Kode</span>
               <a 
                 href={sourceLink}
                 target="_blank" 
@@ -488,10 +488,10 @@ const ProjectCard = ({
 
           {isPrivate && (
             <div className="flex flex-col">
-              <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Source Code</span>
+              <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Lihat Kode</span>
               <div className="inline-flex items-center gap-2 h-11 px-5 rounded-xl bg-gray-100 text-gray-400 text-sm font-medium cursor-not-allowed border border-gray-200">
                 <LockIcon />
-                <span>Private Repository</span>
+                <span>Repositori Privat</span>
               </div>
             </div>
           )}
@@ -511,7 +511,7 @@ const ProjectList = () => {
   const projects: Project[] = [
     {
       title: "Personal Brand AI",
-      description: "An intelligent platform for personal branding automation. Features include AI-driven content workflows, multi-platform social connections, and a dedicated creative studio.",
+      description: "Platform cerdas untuk otomatisasi personal branding. Dilengkapi alur kerja konten berbasis AI, koneksi sosial multi-platform, dan studio kreatif terintegrasi.",
       kind: 'web',
       technologies: [
         { name: "Next.js", color: ColorTags.VIOLET },
@@ -534,7 +534,7 @@ const ProjectList = () => {
     },
     {
       title: "Bebo Games",
-      description: "A comprehensive mobile game platform featuring interactive maps, campaign systems, rewards, leaderboards, and a fully customizable avatar system. Built for high performance and smooth animations.",
+      description: "Platform game mobile komprehensif dengan fitur peta interaktif, sistem kampanye, rewards, leaderboard, dan sistem avatar yang dapat dikustomisasi sepenuhnya. Dibangun untuk performa tinggi dengan animasi yang halus.",
       kind: 'mobile',
       technologies: [
         { name: "React Native", color: ColorTags.FUCHSIA },
@@ -556,7 +556,7 @@ const ProjectList = () => {
     },
     {
       title: "Hierarchical Menu Tree System",
-      description: "A high-performance recursive menu management system. Features unlimited nesting depth, drag-and-drop reordering, and efficient closure table storage pattern for optimized database queries.",
+      description: "Sistem manajemen menu rekursif berperforma tinggi. Memiliki fitur kedalaman nesting tak terbatas, drag-and-drop reordering, dan pola penyimpanan closure table yang efisien untuk query database yang optimal.",
       kind: 'web',
       technologies: [
         { name: "Go (Gin)", color: ColorTags.CYAN },
@@ -580,7 +580,7 @@ const ProjectList = () => {
     },
     {
       title: "PDAM Mobile Payment",
-      description: "A robust utility payment application featuring real-time billing, multiple payment gateway integrations, and history tracking. focused on secure transaction processing and ease of use.",
+      description: "Aplikasi pembayaran utilitas yang tangguh dengan fitur penagihan real-time, integrasi gateway pembayaran ganda, dan pelacakan riwayat. Berfokus pada keamanan transaksi dan kemudahan penggunaan.",
       kind: 'mobile',
       technologies: [
         { name: "React Native", color: ColorTags.CYAN },
@@ -601,7 +601,7 @@ const ProjectList = () => {
     },
     {
       title: "Dompet Suara",
-      description: "A voice-activated financial management app featuring expense tracking, budgeting flows, and recurring bill management with a focus on accessibility and user experience.",
+      description: "Aplikasi manajemen keuangan berbasis suara dengan fitur pelacakan pengeluaran, alur budgeting, dan manajemen tagihan rutin yang berfokus pada aksesibilitas dan pengalaman pengguna.",
       kind: 'mobile',
       technologies: [
         { name: "Flutter", color: ColorTags.SKY },
@@ -622,7 +622,7 @@ const ProjectList = () => {
     },
     {
       title: "Supir Angkot",
-      description: "A dedicated driver companion app optimizing urban mobility. Features real-time route tracking, trip history analytics, and performance monitoring.",
+      description: "Aplikasi pendamping pengemudi khusus untuk optimasi mobilitas perkotaan. Menampilkan pelacakan rute real-time, analisis riwayat perjalanan, dan pemantauan kinerja.",
       kind: 'mobile',
       technologies: [
         { name: "React Native", color: ColorTags.FUCHSIA },
@@ -643,7 +643,7 @@ const ProjectList = () => {
     },
     {
       title: "Corporate Booking System",
-      description: "An enterprise-grade internal app for managing meeting rooms and transport fleets. Features calendar syncing, conflict detection, and admin approval workflows.",
+      description: "Aplikasi internal tingkat enterprise untuk mengelola ruang rapat dan armada transportasi. Memiliki fitur sinkronisasi kalender, deteksi konflik, dan alur kerja persetujuan admin.",
       kind: 'mobile',
       technologies: [
         { name: "React Native", color: ColorTags.VIOLET },
@@ -675,7 +675,7 @@ const ProjectList = () => {
     },
     {
       title: "E-Procurement System Enhancement",
-      description: "Led the scalability overhaul of PT Geo Dipa Energi's procurement system. Focused on optimizing database queries, containerizing services, and enhancing the frontend interface for better vendor management.",
+      description: "Memimpin perombakan skalabilitas sistem pengadaan PT Geo Dipa Energi. Fokus pada optimasi query database, kontainerisasi layanan, dan peningkatan antarmuka frontend untuk manajemen vendor yang lebih baik.",
       kind: 'web',
       technologies: [
         { name: "React.js", color: ColorTags.CYAN },
@@ -694,7 +694,7 @@ const ProjectList = () => {
     },
     {
       title: "ABM Investama Dashboard",
-      description: "Engineered high-performance data visualization dashboards with complex clustering algorithms. Implemented secure multi-tenant data filtering and real-time reporting capabilities.",
+      description: "Merancang dashboard visualisasi data berperforma tinggi dengan algoritma clustering yang kompleks. Mengimplementasikan filter data multi-tenant yang aman dan pelaporan real-time.",
       kind: 'web',
       technologies: [
         { name: "CodeIgniter", color: ColorTags.ORANGE },
@@ -708,7 +708,7 @@ const ProjectList = () => {
     },
     {
       title: "Adhi Karya 360 Assessment",
-      description: "Revamped the 'Akhlak' moral assessment system for 1000+ employees. Modernized the legacy codebase to improve reliability and created a responsive grading interface for easier HR evaluations.",
+      description: "Merampungkan sistem penilaian moral 'Akhlak' untuk 1000+ karyawan. Memodernisasi basis kode lawas untuk meningkatkan keandalan dan membuat antarmuka penilaian yang responsif untuk evaluasi HR yang lebih mudah.",
       kind: 'web',
       technologies: [
         { name: "Yii Framework", color: ColorTags.LIME },
@@ -722,7 +722,7 @@ const ProjectList = () => {
     },
     {
       title: "Unand Spatial Digital Map",
-      description: "Architected a GIS-based digital mapping solution for campus infrastructure. Integrated diverse spatial data layers and provided interactive tools for facility management.",
+      description: "Merancang solusi pemetaan digital berbasis GIS untuk infrastruktur kampus. Mengintegrasikan berbagai lapisan data spasial dan menyediakan alat interaktif untuk manajemen fasilitas.",
       kind: 'web',
       technologies: [
         { name: "CodeIgniter 4", color: ColorTags.ORANGE },
