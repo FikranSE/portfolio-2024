@@ -15,14 +15,11 @@ const Hero = () => (
       }
       description={
         <>
-          A versatile Software Engineer specializing in building{' '}
-          <b>High-Performance Web & Mobile Architectures</b>. From architecting{' '}
-          <b>Enterprise-scale systems</b> and <b>AI-powered platforms</b> to
-          creating interactive
-          <b>Mobile Games</b> and <b>GIS solutions</b>. I combine deep technical
-          expertise in
-          <b>Go, Next.js, and React Native</b> with a passion for delivering
-          robust, scalable digital products.{' '}
+          A passionate <b>Full-Stack & Mobile Developer</b> specializing in
+          creating scalable and user-focused applications for{' '}
+          <b>Web, Mobile, and Desktop</b> platforms. Experienced in{' '}
+          <b>Agile environments</b>, I combine technical expertise with creative
+          problem-solving to deliver impactful digital solutions.{' '}
           <a
             className="text-cyan-400 hover:underline"
             href="mailto:fikran0000@gmail.com"
