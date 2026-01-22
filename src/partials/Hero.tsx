@@ -1,10 +1,9 @@
 import {
   GradientText,
   HeroAvatar,
-  HeroSocial,
   Section,
 } from 'astro-boilerplate-components';
-import { Mail, Phone, Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Hero = () => (
   <Section>
@@ -16,13 +15,18 @@ const Hero = () => (
       }
       description={
         <>
-          A passionate Information Systems student with expertise in 
-          web development and programming. Currently pursuing a career in
-          front-end web engineering while serving as Assistant Coordinator at
-          the Geographic Information Systems Laboratory and Chairperson of the
-          Skill and Intellectual Development Division at the Information Systems
-          Student Association.{' '}
-          <a className="text-cyan-400 hover:underline" href="mailto:fikran0000@gmail.com">
+          A versatile Software Engineer specializing in building{' '}
+          <b>High-Performance Web & Mobile Architectures</b>. From architecting{' '}
+          <b>Enterprise-scale systems</b> and <b>AI-powered platforms</b> to
+          creating interactive
+          <b>Mobile Games</b> and <b>GIS solutions</b>. I combine deep technical
+          expertise in
+          <b>Go, Next.js, and React Native</b> with a passion for delivering
+          robust, scalable digital products.{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="mailto:fikran0000@gmail.com"
+          >
             Get in touch
           </a>
         </>
@@ -37,16 +41,28 @@ const Hero = () => (
       }
       socialButtons={
         <div className="flex gap-4">
-          <a href="mailto:fikran0000@gmail.com" className="text-gray-500 hover:text-gray-700">
+          <a
+            href="mailto:fikran0000@gmail.com"
+            className="text-gray-500 hover:text-gray-700"
+          >
             <Mail size={24} />
           </a>
-          <a href="tel:+6281266920962" className="text-gray-500 hover:text-gray-700">
+          <a
+            href="tel:+6281266920962"
+            className="text-gray-500 hover:text-gray-700"
+          >
             <Phone size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/fikran-elyafit-9ba3622ab/" className="text-gray-500 hover:text-gray-700">
+          <a
+            href="https://www.linkedin.com/in/fikran-elyafit-9ba3622ab/"
+            className="text-gray-500 hover:text-gray-700"
+          >
             <Linkedin size={24} />
           </a>
-          <a href="https://github.com/FikranSE" className="text-gray-500 hover:text-gray-700">
+          <a
+            href="https://github.com/FikranSE"
+            className="text-gray-500 hover:text-gray-700"
+          >
             <Github size={24} />
           </a>
         </div>
